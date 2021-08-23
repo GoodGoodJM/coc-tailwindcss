@@ -1,3 +1,5 @@
+> This repository is forked from [coc-tailwindcss](https://github.com/iamcco/coc-tailwindcss) to support `tw=''` syntax`
+
 # Tailwind CSS IntelliSense
 
 > fork from [vscode-tailwindcss](https://github.com/bradlc/vscode-tailwindcss) v0.2.0
