@@ -1342,6 +1342,17 @@
           "description": "A flag that controls whether or not Headwind will remove duplicate Tailwind CSS classes.",
           "type": "boolean",
           "scope": "window"
+        },
+        "tailwindCSS.experimental.classRegex": [
+          "tw`([^`]*)", // tw`...`
+          "tw=\"([^\"]*)", // <div tw="..." />
+          "tw={\"([^\"}]*)", // <div tw={"..."} />
+          "tw\\.\\w+`([^`]*)", // tw.xxx`...`
+          "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+        ],
+        "tailwindCSS.includeLanguages": {
+          "typescript": "javascript",
+          "typescriptreact": "javascript"
         }
       }
     }
