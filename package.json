@@ -1344,11 +1344,11 @@
           "scope": "window"
         },
         "tailwindCSS.experimental.classRegex": [
-          "tw`([^`]*)", // tw`...`
-          "tw=\"([^\"]*)", // <div tw="..." />
-          "tw={\"([^\"}]*)", // <div tw={"..."} />
-          "tw\\.\\w+`([^`]*)", // tw.xxx`...`
-          "tw\\(.*?\\)`([^`]*)" // tw(Component)`...`
+          "tw`([^`]*)",
+          "tw=\"([^\"]*)",
+          "tw={\"([^\"}]*)",
+          "tw\\.\\w+`([^`]*)",
+          "tw\\(.*?\\)`([^`]*)"
         ],
         "tailwindCSS.includeLanguages": {
           "typescript": "javascript",
